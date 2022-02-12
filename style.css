@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 1px;
+    font-family: sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../15.jpg);
+    height: 100vh;
+    background-size: auto;
+    background-position: center;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: solid;
+    color: rgb(7, 7, 7);
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+ul li a:hover{
+background-color: rgb(2, 0, 8);
+color: rgb(252, 249, 249);
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.main h1{
+    float: left;
+    color:rgba(5, 5, 5, 0.993);
+    font-size: 25px;
+    margin-top: 25px;
+}
+.main p{
+    float: left;
+    color: rgba(206, 209, 9, 0.993);
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.title h1{
+    font-size: 45px;
+}
+.title p{
+    color: cornsilk;
+    margin: 25px;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+.c img{
+    display: flex;
+    float:initial;
+    margin-left: 20%;
+    margin-top: 7%;
+    height: 30vh;
+}
+.c h1{
+    
+    float: left;
+    margin: -165px;
+    margin-left: 750px;
+    width: 46%;
+    height: auto ;
+}
+.a img{
+    display: flex;
+    float:initial;
+    margin-left: 50%;
+    margin-top: 7%;
+    height: 30vh;
+}
+.a ul{
+    float: left;
+    margin: -165px;
+    margin-left: 380px;
+    width: 10%;
+    height: auto ;
+}
+.a ul{
+    text-decoration: solid;
+    list-style-type:none;
+    color: rgb(15, 15, 15);
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+.l img{
+    display: flex;
+    float:initial;
+    height: 30vh;
+    margin: 140px;
+}
+.a ul:hover{
+    background-color: rgb(27, 8, 82);
+    color: rgb(252, 249, 249);
+}
+.contact{
+    background-color: rgb(219, 196, 121);
+}
+.h h1{
+font-size: 30px;
+margin-left: 10%;
+margin-top: 5%;
+margin-bottom: 4%;
+}
+.box .icon{
+    margin-left: 5%;
+}
+.add{
+    margin-left: 5%;
+}
+.ph{
+    margin-left: 5%;
+}
+.e{
+    margin-left: 5%;
+}
+.social{
+    float: right;
+    font-size: 45px;
+    margin-top: -20%;
+    margin-right: 6%;
+}
+.bg{
+    background-color: rgb(206, 185, 159);
+}
+.social i{
+    margin: 5px;
+}
